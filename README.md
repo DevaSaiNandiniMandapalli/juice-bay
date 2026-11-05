@@ -3,6 +3,8 @@
 A bright, modern, youthful one-page site for **JUICE BAY**, Santosh Nagar, Hyderabad.
 This is an **independent design concept — not the official website** and not affiliated with Swiggy.
 
+**Live site:** https://juice-bay.vercel.app
+
 ## Run it
 
 Double-click `index.html`, or serve the folder:
@@ -13,6 +15,8 @@ python3 -m http.server 8080
 ```
 
 No build step, no dependencies. Works from `file://` too.
+
+**Deploy:** the folder is a static site, so Vercel serves it as-is (no build command, output directory = root). Pushing to `main` is the update path.
 
 ## What is verified vs. demo
 
